@@ -227,7 +227,7 @@ function refreshPerSec(delta){
 
         // Deduct resource use from machines
         charcoalps -= charcoalEngine * charcoalEngineCharcoalInput;
-        methaneps -= methaneStation * methaneStationEnergyinput;
+        methaneps -= methaneStation * methaneStationMethaneInput;
         uraniumps -= nuclearStation * nuclearStationUraniumInput;
         lavaps -= magmatic * magmaticLavaInput;
         hydrogenps -= fusionReactor * fusionReactorHydrogenInput;
