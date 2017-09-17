@@ -252,7 +252,7 @@ function refreshPerSec(delta){
 
 	if (rocketFuelToggled === true) {
 		var oilCost = (chemicalPlant*chemicalPlantOilInput) + (oxidisation*oxidisationOilInput);
-		var charcoalCost = (chemicalPlant*chemicalPlantCharcoalInput) + (oxidisation*oxiisationCharcoalInput);
+		var charcoalCost = (chemicalPlant*chemicalPlantCharcoalInput) + (oxidisation*oxidisationCharcoalInput);
 		if (getResource(RESOURCE.Oil) + getProduction(RESOURCE.Oil) >= oilCost &&
 			getResource(RESOURCE.Charcoal) + getProduction(RESOURCE.Charcoal) >= charcoalCost) {
 			oilps -= oilCost;
