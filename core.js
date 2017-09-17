@@ -64,7 +64,7 @@ function calculateEnergyUse(delta) {
 	use += (pumpjack * pumpjackEnergyInput) + (oilField * oilFieldEnergyInput) + (oilRig * oilRigEnergyInput) + (fossilator * fossilatorEnergyInput);
 	
 	// Metal Energy Consumption
-	use += (heavyDrill * heavyDrillEnergyInput) + (gigaDril * gigaDrillEnergyInput) + (quantumDrill * quantumDrillEnergyInput) + (multiDrill * multiDrillEnergyInput);
+	use += (heavyDrill * heavyDrillEnergyInput) + (gigaDrill * gigaDrillEnergyInput) + (quantumDrill * quantumDrillEnergyInput) + (multiDrill * multiDrillEnergyInput);
 	
 	// Gems Energy Consumption
 	use += (advancedDrill * advancedDrillEnergyInput) + (diamondDrill * diamondDrillEnergyInput) + (carbyneDrill * carbyneDrillEnergyInput) + (diamondChamber + diamondChamberEnergyInput);
