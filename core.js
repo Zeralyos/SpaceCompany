@@ -245,7 +245,7 @@ function refreshPerSec(delta){
 			charcoalps += woodburner * perSecondMultiplier;
 
 			if (!energyLow && globalEnergyLock === false) {
-				charcoalps += ((furnace*furnaceOutput) + (kiln*kilnOutput) + (fryer*fryerOutput) + (microPollutor*microPolutorOutput)) * perSecondMultiplier
+				charcoalps += ((furnace*furnaceOutput) + (kiln*kilnOutput) + (fryer*fryerOutput) + (microPollutor*microPollutorOutput)) * perSecondMultiplier
 			}
 		}
 	}
