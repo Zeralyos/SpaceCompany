@@ -113,7 +113,7 @@ var interCow = 0; var interCowLunariteCost = 14000; var interCowGoldCost = 20200
 
 // Titanium
 var titanium = 0; var titaniumStorage = 50; var titaniumNextStorage = 100; var titaniumps = 0;
-var explorer = 0; var explorerGemCost = 1000; var explorer = 1;
+var explorer = 0; var explorerGemCost = 1000; var explorerOutput = 1;
 var lunariteDrill = 0; var lunariteDrillLunariteCost = 200; var lunariteDrillGemCost = 800; var lunariteDrillOilCost = 1000; var lunariteDrillEnergyInput = 13; var lunariteDrillOutput = 9;
 var pentaDrill = 0; var pentaDrillLunariteCost = 14000; var pentaDrillGemCost = 11000; var pentaDrillSiliconCost = 5600; var pentaDrillEnergyInput = 46; var pentaDrillEnergyOutput = 49;
 var titanDrill = 0; var titanDrillLunariteCost = 63000; var titanDrillGoldCost = 27000; var titanDrillMeteoriteCost = 600; var titanDrillEnergyInput = 123; var titanDrillOutput = 197;
