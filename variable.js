@@ -153,7 +153,7 @@ var cage = 0; var cageLunariteCost = 171000; var cageSiliconCost = 165000; var c
 
 // Ice
 var ice = 0; var iceStorage = 50; var iceNextStorage = 100; var iceStorageCost = 100; var iceps = 0;
-var icePick = 0; var icePickLunariteCost = 17800; var icePickGemCost = 19300; var icePickOtput = 1;
+var icePick = 0; var icePickLunariteCost = 17800; var icePickGemCost = 19300; var icePickOutput = 1;
 var iceDrill = 0; var iceDrillLunariteCost = 23900; var iceDrillTitaniumCost = 21200; var iceDrillSiliconCost = 19600; var iceDrillEnergyInput = 83; var iceDrillOutput = 9;
 var freezer = 0; var freezerLunariteCost = 117000; var freezerTitaniumCost = 86000; var freezerSiliconCost = 73000; var freezerEnergyInput = 397; var freezerOutput = 65;
 var mrFreeze = 0; var mrFreezeWoodCost = 379000; var mrFreezeHeliumCost = 14000; var mrFreezeMeteoriteCost = 1500; var mrFreezeEnergyInput = 1135; var mrFreezeOutput = 278;
