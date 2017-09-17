@@ -209,7 +209,7 @@ function refreshPerSec(delta){
 	if (!energyLow && globalEnergyLock === false) {
 		// Add resource gain from machines
 
-        oilps +=  ((pumpjack*pumpjackOutput) + (oilField*oilFieldOutput) + (oilRig*olRigOutput) + (fossilator*fossilatorOutput)) * perSecondMultiplier;
+        oilps +=  ((pumpjack*pumpjackOutput) + (oilField*oilFieldOutput) + (oilRig*oilRigOutput) + (fossilator*fossilatorOutput)) * perSecondMultiplier;
         metalps +=  ((heavyDrill*heavyDrillOutput) + (gigaDrill*gigaDrillOutput) + (quantumDrill*quantumDrillOutput) + (multiDrill*multiDrillOutput)) * perSecondMultiplier;
         gemps +=  ((advancedDrill*advancedDrillOutput) + (diamondDrill*diamondDrillOutput) + (carbyneDrill*carbyneDrillOutput) + (diamondChamber*diamondChamberOutput)) * perSecondMultiplier;
         woodps +=  ((laserCutter*laserCutterOutput) + (deforester*deforesterOutput) + (infuser*infuserOutput) + (forest*forestOutput)) * perSecondMultiplier;
