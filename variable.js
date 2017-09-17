@@ -77,7 +77,7 @@ var woodburner = 0; var woodburnerMetalCost = 10; var woodburnerWoodCost = 5; va
 var furnace = 0; var furnaceMetalCost = 80; var furnaceWoodCost = 40; var furnaceOilCost = 100; var furnaceEnergyInput = 3; var furnaceWoodInput = 6; var furnaceOutput = 4;
 var kiln = 0; var kilnLunariteCost = 3500; var kilnGemCost = 6200; var kilnSiliconCost = 3800; var kilnEnergyInput = 13; var kilnWoodInput = 56; var kilnOutput = 53;
 var fryer = 0; var fryerLunariteCost = 15800; var fryerLavaCost = 12500; var fryerMeteoriteCost = 560; var fryerEnergyInput = 34; var fryerWoodInput = 148; var fryerOutput = 210;
-var microPollutor = 0; var microPollutorMetalCost = 133000; var microPollutorWoodCost = 189000; var microPollutorLavaCost = 160000; var microPollutorEnergyInput = 187; var microPollutorWoodInput = 950; var microPollutorOuput = 2267;
+var microPollutor = 0; var microPollutorMetalCost = 133000; var microPollutorWoodCost = 189000; var microPollutorLavaCost = 160000; var microPollutorEnergyInput = 187; var microPollutorWoodInput = 950; var microPollutorOutput = 2267;
 
 // Wood
 var wood = 0; var woodStorage = 50; var woodNextStorage = 100; var woodps = 0;
